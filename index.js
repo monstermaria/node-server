@@ -5,9 +5,9 @@ Gå igenom:
 * Installera node
 * Kör CLI exempel
 * Built-in modules (https://www.w3schools.com/nodejs/ref_modules.asp)
-* http module
+* http module (https://nodejs.org/api/http.html)
 * Vad är NPM? (https://www.npmjs.com/)
-* Express
+* Express (https://expressjs.com/)
 
 */
 
