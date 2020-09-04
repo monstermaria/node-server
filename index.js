@@ -11,13 +11,15 @@ Gå igenom:
 
 */
 
-const http = require("http");
+const express = require("express");
 
-const server = http.createServer((req, res) => {
-    console.log(req.url);
-    res.write("<h1>Hoppsan!</h1>");
-    res.end();
+const server = express();
+const port = 8000;
+
+server.get("/", (req, res) => {
+  res.send("<h1>HALLÅ ELLER!!!!</h1>");
 });
 
-server.listen(8000);
-
+server.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+});
